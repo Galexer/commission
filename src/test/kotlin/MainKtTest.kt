@@ -74,6 +74,6 @@ class MainKtTest {
         val typeCard = "UnionPay"
 
         val result = commission(sum, previousPaym, typeCard)
-        assertEquals(-1, result)
+        assertEquals(0, result)
     }
 }
