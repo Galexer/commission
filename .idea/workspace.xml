@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="280a1c3a-3ae1-4363-bc6d-4245c73ff808" name="Changes" comment="fail tests">
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" afterDir="false" />
+    <list default="true" id="280a1c3a-3ae1-4363-bc6d-4245c73ff808" name="Changes" comment="good tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ru/netology/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/20885/IdeaProjects/issu&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
@@ -87,11 +89,11 @@
       <command value="gradle test :jacocoTestReport" />
       <command value="gradle jacocoTestReport" />
       <command value="gradle test jacocoTestCoverageVerification" />
-      <command value="gradle test" />
       <command value="gradle test jacocoTestReport" />
+      <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.komission [test jacocoTestReport]">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="MainKtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,7 +140,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainKtTest.commission_MMOutLim" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainKtTest.commission_MMLessk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,53 +153,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.MainKtTest.commission_MMOutLim&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MainKtTest.commission_VK" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netology.MainKtTest.commission_VK&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MainKtTest.commission_visa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.netology.MainKtTest.commission_visa&quot;" />
+            <option value="&quot;ru.netology.MainKtTest.commission_MMLessk&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -251,13 +207,43 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="komission [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.netology.MainKt" />
+      <module name="komission.main" />
+      <shortenClasspath name="NONE" />
+      <extension name="coverage" runner="jacoco" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MainKtTest" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.MainKtTest.commission_MMLess" />
-        <item itemvalue="Gradle.MainKtTest.commission_MMOutLim" />
-        <item itemvalue="Gradle.MainKtTest.commission_VK" />
-        <item itemvalue="Gradle.MainKtTest.commission_visa" />
+        <item itemvalue="Gradle.MainKtTest.commission_MMLessk" />
+        <item itemvalue="Gradle.komission [test]" />
+        <item itemvalue="Gradle.MainKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659890892948</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="good tests">
+      <created>1659891464382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659891464382</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +317,8 @@
     <MESSAGE value="fun commission" />
     <MESSAGE value="tests" />
     <MESSAGE value="fail tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="fail tests" />
+    <MESSAGE value="good tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="good tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,6 +333,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/komission$MainKtTest_commission_notAvalCard.ic" NAME="MainKtTest.commission_notAvalCard Coverage Results" MODIFIED="1659888982714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/komission$komission__test_jacocoTestReport_.ic" NAME="komission [test jacocoTestReport] Coverage Results" MODIFIED="1659893749763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/komission$MainKtTest.ic" NAME="MainKtTest Coverage Results" MODIFIED="1659889516803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/komission$MainKtTest_commission_MMLess.ic" NAME="MainKtTest.commission_MMLess Coverage Results" MODIFIED="1659889435281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
