@@ -76,4 +76,13 @@ class MainKtTest {
         val result = commission(sum, previousPaym, typeCard)
         assertEquals(-1, result)
     }
+    @Test
+    fun commission_notAvalCardNull() {
+        val sum = 5000_00
+        val previousPaym = 0
+        val typeCard = null
+
+        val result = commission(sum, previousPaym, typeCard)
+        assertEquals(-1, result)
+    }
 }
